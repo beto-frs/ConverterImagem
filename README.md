@@ -81,7 +81,7 @@ $scope.uploadFiles = function (files) {
 ### .NET
 <br>
 ##### Model.cs
-```csharp
+```C#
 public class Model
     {
         public string  data { get; set; }
@@ -91,7 +91,7 @@ public class Model
 
 <br>
 #####Controller
-```csharp
+```C#
  [HttpPost]
         public JsonResult UploadFile(Model model)
         {
